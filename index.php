@@ -81,7 +81,7 @@ $dischi =[
             <p>titolo:<?php echo $dischi [$i] ['title'] ?></p>
             <p>autore:<?php echo $dischi [$i] ['author'] ?></p>
             <p>anno:<?php echo $dischi [$i] ['year'] ?></p>
-            <p><?php echo $dischi [$i] ['poster'] ?></p>
+            <img src="<?php echo $dischi [$i] ['poster'] ?>" alt="">
        <?php } ?>
     </div>
 </body>
