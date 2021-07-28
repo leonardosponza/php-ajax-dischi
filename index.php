@@ -55,10 +55,10 @@ $dischi =[
         'poster' => 'https://images-na.ssl-images-amazon.com/images/I/81%2B0CgQxC6L._AC_SY355_.jpg'
     ],
     [
-        'title' => 'Whitey Ford Sings the Blues',
-        'author' => 'Everlast',
-        'year' => '1998',
-        'poster' => 'https://images-na.ssl-images-amazon.com/images/I/71NbmXuHX2L._AC_SY355_.jpg'
+        'title' => 'Sol-fa',
+        'author' => 'asian kung-fu generation',
+        'year' => '2004',
+        'poster' => 'https://images-na.ssl-images-amazon.com/images/I/61slqdDtpUL._AC_SX425_.jpg'
     ],
 
 ]
