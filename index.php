@@ -76,9 +76,13 @@ $dischi =[
     <title>disconiiii</title>
 </head>
 <body>
-    <p>titolo:<?php echo $dischi['title']?></p>
-    <p>autore:<?php echo $dischi['author']?></p>
-    <p>anno:<?php echo $dischi['year']?></p>
-    <p><?php echo $dischi['poster']?></p>
+    <div>
+    <?php for($i = 0; $i < count($dischi); $i++) { ?>
+            <p>titolo:<?php echo $dischi [$i] ['title'] ?></p>
+            <p>autore:<?php echo $dischi [$i] ['author'] ?></p>
+            <p>anno:<?php echo $dischi [$i] ['year'] ?></p>
+            <p><?php echo $dischi [$i] ['poster'] ?></p>
+       <?php } ?>
+    </div>
 </body>
 </html>
