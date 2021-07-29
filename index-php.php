@@ -22,11 +22,11 @@
   <div class="album" v-for="disco in dischi">
     <?php  {?>
       <div class="dischi">
-        <img :src="dischi.poster" alt="">
-        <h3>{{dischi.title}}</h3>
+        <img :src="disco.poster" alt="">
+        <h3>{{disco.title}}</h3>
         <div class="color">
-          <div>{{dischi.author}}</div>
-          <div>{{dischi.year}}</div>
+          <div>{{disco.author}}</div>
+          <div>{{disco.year}}</div>
         </div>
       </div>
 
