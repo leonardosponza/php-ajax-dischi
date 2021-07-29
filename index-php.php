@@ -20,7 +20,7 @@
   <div id="app">
 
   <div class="album" v-for="disco in dischi">
-    <?php foreach($albums as $dischi) {?>
+    <?php  {?>
       <div class="dischi">
         <img :src="dischi.poster" alt="">
         <h3>{{dischi.title}}</h3>

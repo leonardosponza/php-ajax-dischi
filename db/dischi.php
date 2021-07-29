@@ -60,7 +60,7 @@ $dischi =[
         'author' => 'asian kung-fu generation',
         'year' => '2004',
         'poster' => 'https://images-na.ssl-images-amazon.com/images/I/61slqdDtpUL._AC_SX425_.jpg'
-    ],
+    ]
 
 ]
 

@@ -2,7 +2,7 @@ const app = new Vue(
     {
         el: '#app',
         data: {
-           url: '../api/api-dischi.php',
+           url: 'api/api-dischi.php',
            dischi: '' 
         },
         mounted(){
